@@ -1,0 +1,103 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pixelate');
+
+body{
+    font-family: 'SF Pixelate', sans-serif;
+    font-weight: bold;
+    margin: 0%;
+    background-color: #e1e2e1;
+    padding: 0%;
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+    margin-top: 100px;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+#btn {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    background-color: #e5ffff;
+    width: 100vw;
+}
+
+input {
+    width: 50%;
+    height: 30%;
+    margin: 5px;
+    margin-left: auto;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #e1e2e1;
+    font-family: 'SF Pixelate', sans-serif;
+    font-size: 24px;
+}
+
+button {
+    background-color: #82ada9;
+    border-color: #82ada9;
+    border-radius: 10px;
+    width: 90px;
+    height: 45px;
+    font-family: 'SF Pixelate', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1px;
+    margin-top: 5px;
+}
+
+label {
+    text-align: center;
+    margin-left: auto;
+}
+
+#result {
+    text-align: center;
+    background-color: #e5ffff;
+    color: black;
+    font-size: 24px;
+    width: 100vw;
+    height: 100px;
+    margin-top: 0%;
+}
+
+#total {
+    text-align: center;
+    background-color: #e5ffff;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 24px;
+    width: 100vw;
+    height: 50px;
+    padding-top: 25px;
+
+}
+
+#header {
+    text-align: center;
+    background-color: #b2dfdb;
+    margin: 0%;
+    box-shadow: 0px 1px 0px 0px gray;
+    width: 100vw;
+    height: 10%;
+    font-size: 42px;
+}
+
+:placeholder-shown {
+    font-family: 'SF Pixelate', sans-serif;
+    font-weight: 500;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
